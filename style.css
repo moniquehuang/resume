@@ -1,0 +1,214 @@
+body {
+  background-color: #FCF4FF
+}
+
+.title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 150px;
+  color: #9B26E2;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 67px;
+  color: #5E168A;
+}
+
+.profile {
+  background: #FCF4FF;
+  padding: 50px;
+  border-radius: 50%;
+  width: 277px;
+  height: 250px;
+  left: 83px;
+  top: 61px;
+  background-size: contain;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.contact-border {
+  width: 100%;
+  
+  background: #E5E5E5;
+  border-radius: 15px;
+}
+
+.header-contact {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 67px;
+  color: #B283CF;
+}
+
+.info {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 56px;
+  padding: 40px;
+  color: #000000;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.featured-projects {
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.headers {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 67px;
+  color: #AB7DC8;
+  text-align: center;
+}
+
+.project-border {
+  width: 382.08px;
+  height: 541.38px;
+  background: #E5E5E5;
+  border-radius: 15px;
+}
+
+.project-photo {
+  width: 314.94px;
+  height: 202.69px;
+  margin-top: 15px;
+}
+
+.project-card {
+  width: 380px;
+  height: 540px;
+  background: #E5E5E5;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.project-info {
+  height: 250px;
+}
+
+.project-title {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.project-body {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.spacer {
+  margin-top: 30px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lists {
+  margin: 20px;
+}
+
+.skills-border {
+  width: 555px;
+  height: 956px;
+  background: #E5E5E5;
+  border-radius: 15px;
+}
+
+.skills-title {
+  width: 311.56px;
+  height: 40.6px;
+  left: 111.69px;
+  top: 1530.09px;
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.honors-border {
+  width: 537px;
+  height: 473px;
+  left: 746px;
+  top: 1507px;
+  background: #E5E5E5;
+  border-radius: 15px;
+}
+
+.education-border {
+  width: 537px;
+  height: 385px;
+  left: 746px;
+  top: 2073px;
+  background: #E5E5E5;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-bottom: 20px
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+h3 {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+li {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+  padding:
+}
