@@ -89,13 +89,6 @@ body {
   text-align: center;
 }
 
-.project-border {
-  width: 382.08px;
-  height: 541.38px;
-  background: #E5E5E5;
-  border-radius: 15px;
-}
-
 .project-photo {
   width: 314.94px;
   height: 202.69px;
@@ -140,17 +133,18 @@ body {
 }
 
 .about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
 }
 
 .lists {
   margin: 20px;
 }
 
-.skills-border {
-  width: 555px;
-  height: 956px;
+.skills-card {
+  width: 560px;
+  height: 1000px;
   background: #E5E5E5;
   border-radius: 15px;
 }
@@ -168,22 +162,41 @@ body {
   color: #000000;
 }
 
-.honors-border {
+
+.honors-card {
   width: 537px;
-  height: 473px;
+  height: 430px;
   left: 746px;
   top: 1507px;
   background: #E5E5E5;
   border-radius: 15px;
+  padding: 10px;
 }
 
-.education-border {
+.education-card {
   width: 537px;
   height: 385px;
   left: 746px;
   top: 2073px;
   background: #E5E5E5;
   border-radius: 15px;
+  padding: 10px;
+}
+
+.honors-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.education-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.brag-photo {
+  width: 250px;
+  height: 150px;
+  margin-top: 15px;
 }
 
 h1 {
@@ -201,14 +214,14 @@ h3 {
   font-size: 40px;
   line-height: 48px;
   color: #000000;
+  padding: 10px;
 }
 
 li {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
   color: #000000;
-  padding:
 }
